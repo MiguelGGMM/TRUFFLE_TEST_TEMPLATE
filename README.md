@@ -9,18 +9,10 @@
 ## INSTALLATION INSTRUCTIONS
 
 ```
-npm install -g truffle@5.11.0
+pnpm install
 ```
 
-```
-npm install -g ganache@7.9.0
-```
-
-```
-npm install
-```
-
-Using 'npm run' you can check the commands you will need to deploy ganache, test your smart contract and run linter and prettier 
+Using 'pnpm run' you can check the commands you will need to deploy ganache, test your smart contract and run linter and prettier 
 
 If you want to test deployments you have to include your pk on .pk.example and remove the .example 
 
