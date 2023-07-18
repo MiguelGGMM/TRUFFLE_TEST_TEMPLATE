@@ -1,7 +1,7 @@
 {
-  "name": "the_promised_moon",
-  "version": "1.0.0",
-  "description": "Example of token rid of priviledges that can check his own price and marketcap in order to take decisions",
+  "name": "truffle-test-template",
+  "version": "1.0.1",
+  "description": "Project template for testing smart contracts",
   "main": "index.js",
   "scripts": {
     "compile": "truffle compile",
@@ -15,13 +15,6 @@
     "deploy": "truffle migrate --network bscMainnet",
     "verify": "truffle run verify ThePromisedMoon --network bscMainnet"
   },
-  "keywords": [
-    "BLOCKCHAIN",
-    "TOKEN",
-    "BSC",
-    "DEX",
-    "PANCAKESWAPV2"
-  ],
   "author": "MiguelGGMM",
   "license": "MIT",
   "dependencies": {
