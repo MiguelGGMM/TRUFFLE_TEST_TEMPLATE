@@ -25,6 +25,8 @@
   "author": "MiguelGGMM",
   "license": "MIT",
   "dependencies": {
+    "truffle": "5.11.0",
+    "ganache": "7.9.0",
     "@openzeppelin/contracts": "^4.9.2",
     "@truffle/hdwallet-provider": "^2.1.12",
     "dotenv": "^16.0.3",

@@ -34,14 +34,16 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           #cache: 'npm'          
-      - name: Install truffle
-        run: npm install -g truffle@5.11.0 --no-audit --no-fund --no-optional
+      # - name: Install truffle
+      #   run: npm install -g truffle@5.11.0 --no-audit --no-fund --no-optional
       
-      - name: Install ganache
-        run: npm install -g ganache@7.9.0 --no-audit --no-fund --no-optional
+      # - name: Install ganache
+      #   run: npm install -g ganache@7.9.0 --no-audit --no-fund --no-optional
 
-      - name: Install local libraries
-        run: npm install --no-audit --no-fund --no-optional
+      # - name: Install local libraries
+      #   run: npm install --no-audit --no-fund --no-optional
+      - name: Install libraries
+        run: npm ci
 
       - name: Run linter checks        
         run: npm run linter
