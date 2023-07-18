@@ -1,0 +1,35 @@
+{
+  "name": "the_promised_moon",
+  "version": "1.0.0",
+  "description": "Example of token rid of priviledges that can check his own price and marketcap in order to take decisions",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "linter": "npx solhint contracts/**/*.sol",
+    "linter:fix": "npx solhint --fix contracts/**/*.sol",
+    "prettier": "npx prettier --list-different --plugin=prettier-plugin-solidity contracts/**/*.sol",
+    "prettier:fix": "npx prettier --write --plugin=prettier-plugin-solidity contracts/**/*.sol",
+    "ganache": "ganache",
+    "ganacheFork": "ganache --fork=https://bsc-dataseed1.binance.org/ --unlock 0x936a644Bd49E5E0e756BF1b735459fdD374363cF",
+    "test": "truffle test --network ganacheLocal",
+    "deploy": "truffle migrate --network bscMainnet",
+    "verify": "truffle run verify ThePromisedMoon --network bscMainnet"
+  },
+  "keywords": [
+    "BLOCKCHAIN",
+    "TOKEN",
+    "BSC",
+    "DEX",
+    "PANCAKESWAPV2"
+  ],
+  "author": "MiguelGGMM",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "dotenv": "^16.0.3",
+    "prettier-plugin-solidity": "^1.1.3",
+    "solhint": "^3.4.1",
+    "truffle-plugin-verify": "^0.6.4"
+  }
+}
