@@ -1,4 +1,7 @@
 # TRUFFLE_TEST_TEMPLATE
+
+[![Solidity testing CI](https://github.com/MiguelGGMM/TRUFFLE_TEST_TEMPLATE/actions/workflows/truffle-test.js.yml/badge.svg)](https://github.com/MiguelGGMM/TRUFFLE_TEST_TEMPLATE/actions/workflows/truffle-test.js.yml)
+
  Project template for testing smart contracts using truffle and ganache, includes linter, prettier and CI using github actions \
  The example contract imports openzeppelin standard contracts \
  During tests chainlink datafeeds are used for validations 
